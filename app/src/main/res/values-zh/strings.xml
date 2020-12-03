@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">MinewToolsKitDemo</string>
+    <string name="permission_location">应用需要定位权限</string>
+    <string name="confirm_reset">Confirm to restore factory defaults ?</string>
+    <string name="ok">确定</string>
+    <string name="cancel">取消</string>
+
+</resources>

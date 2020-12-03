@@ -1,0 +1,2 @@
+rootProject.name='MinewToolsKitDemo'
+include ':app'
