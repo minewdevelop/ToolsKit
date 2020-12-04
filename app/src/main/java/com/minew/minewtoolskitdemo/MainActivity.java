@@ -20,8 +20,8 @@ import com.minewtech.minewtoolsKit.bean.LockModule;
 import com.minewtech.minewtoolsKit.enums.BluetoothState;
 import com.minewtech.minewtoolsKit.enums.ConnectionState;
 import com.minewtech.minewtoolsKit.enums.OperationType;
-import com.minewtech.minewtoolsKit.interfaces.outside.OnConnStateListener;
 import com.minewtech.minewtoolsKit.interfaces.outside.OnFirmwareUpgradeListener;
+import com.minewtech.minewtoolsKit.interfaces.outside.OnOperaStateListener;
 import com.minewtech.minewtoolsKit.interfaces.outside.OnScanLockResultListener;
 import com.minewtech.minewtoolsKit.manager.MinewLockCenterManager;
 import com.minewtech.minewtoolsKit.utils.BLETool;
@@ -31,7 +31,7 @@ import java.util.List;
 
 import static com.minewtech.minewtoolsKit.enums.ConnectionState.DeviceLinkStatus_OTA;
 
-public class MainActivity extends AppCompatActivity implements OnScanLockResultListener, View.OnClickListener, OnConnStateListener {
+public class MainActivity extends AppCompatActivity implements OnScanLockResultListener, View.OnClickListener, OnOperaStateListener {
 
     private boolean isOpenBle = false;
     private PermissionManager mPermissionManager;
